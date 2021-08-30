@@ -31,17 +31,17 @@ Uno de los "porque" mas relevantes es el hecho de que el cliente se ve involucra
 
 Estos son algunos ejemplo de metodologías que actualmente se usan:
 
-- ### <spam style="color: rgb(0, 64, 124);">**Programacion Extrema**</spam>
+- ### <spam class="exited">**Programacion Extrema**</spam>
 
     Conocida por sus siglas XP (eXtreme Programming), es una metodología basada en un conjunto de reglas y buenas prácticas para el desarrollo de software en ambientes muy cambiantes con requisitos imprecisos, por ende está enfocada en la retroalimentación continua entre el equipo de desarrollo y el cliente.
 
     Iniciando el proyecto se deben definir todos los requisitos, para luego invertir el esfuerzo en manejar los cambios que se presenten y así minimizar las posibilidades de error. Optimiza los tiempos y se adapta al desarrollo de sistemas grandes y pequeños sin mayor documentación, el código es claro y simple, así mismo complementa los conocimientos entre los miembros del equipo.
 
-- ### <spam style="color: rgb(0, 64, 124);">**Scrum**</spam>
+- ### <spam class="exited">**Scrum**</spam>
 
     Esta metodología, es un marco de trabajo de procesos ágiles que trabaja con el ciclo de vida iterativo e incremental, donde se va liberando el producto por pares de forma periódica. Con Scrum se realizan entregas regulares y parciales del producto final, todas ellas con una prioridad previamente establecida según el beneficio que aporten al cliente, minimizando los riesgos que pueden surgir de desarrollos extremadamente largos.
 
-- ### <spam style="color: rgb(0, 64, 124);">**Kanban**</spam>
+- ### <spam class="exited">**Kanban**</spam>
 
     Es un marco de trabajo que requiere una comunicación en tiempo real sobre la capacidad del equipo, utilizado para controlar el avance de trabajo en una línea de producción, en la cual se clasifican las tareas en sub estatus, esto con la intención de determinar los niveles de productividad en cada fase del proyecto. (Pendiente, En progreso, Terminado)
     ![Modelo Kanban](/archivos/actividad1/kanban.png "Un esquema del modelo Kanban")

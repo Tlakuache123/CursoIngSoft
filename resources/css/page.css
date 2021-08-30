@@ -25,3 +25,8 @@
 .dropdown-item.active, .dropdown-item:active {
     background-color: #00000060;
 }
+
+.exited{
+	color: rgb(0, 64, 124) !important;
+	font-weight: bold;
+}

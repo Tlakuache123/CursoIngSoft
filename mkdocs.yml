@@ -12,6 +12,7 @@ extra_css:
 nav:
     - Individuales:
         - Actividad 1: individual/actividad1.md
+        - Actividad 2: individual/actividad2.md
     - Colaborativas:
         - Actividad 1: todo.md
 copyright: ©GMDXX
