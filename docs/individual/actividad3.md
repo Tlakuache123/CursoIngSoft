@@ -53,3 +53,14 @@ Estos son algunos de los mas populares softwares para crear tu propio diagrama d
 - Venngage
 
 ## Ejemplo
+
+Este es un ejemplo propio sobre un diagrama de Gantt para organizar las tareas y tiempos en mi proyecto personal, el desarollar un videojuego.
+
+[Aqui se encuentra el archivo listo para descargar](../../resources/archivos/actividad3/diagramaJuego.pod)
+
+![Ejemplo_de_diagrama](/archivos/actividad3/SS.png)
+## Fuentes
+
+- https://www.atlassian.com/es/agile/project-management/gantt-chart
+- https://www.teamleader.es/blog/diagrama-de-gantt
+- https://unade.edu.mx/para-que-sirve-la-grafica-de-gantt/
