@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="GMDXX">
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Actividad 4 - Ingenieria en Software :")</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+        <link href="../../css/page.css" rel="stylesheet">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Ingenieria en Software :")</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Individuales <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../actividad1/" class="dropdown-item">Actividad 1</a>
+</li>
+                                    
+<li>
+    <a href="../actividad2/" class="dropdown-item">Actividad 2</a>
+</li>
+                                    
+<li>
+    <a href="../actividad3/" class="dropdown-item">Actividad 3</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Actividad 4</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Colaborativas <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../todo/" class="dropdown-item">Actividad 1</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../actividad3/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../../todo/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#json-xml" class="nav-link">JSON &amp; XML</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#json" class="nav-link">JSON</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#xml" class="nav-link">XML</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#comparativa" class="nav-link">Comparativa</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="json-xml">JSON &amp; XML</h1>
+<h2 id="json">JSON</h2>
+<p>JSON (JavaScript Object Notation) es un <strong>formato ligero de intercambio de datos</strong>. JSON es de fácil lectura y escritura para los usuarios. Leerlo y escribirlo es simple para humanos, mientras que para las máquinas es simple interpretarlo y generarlo. Está basado en un subconjunto del Lenguaje de Programación JavaScript, Standard ECMA-262 3rd Edition - Diciembre 1999.</p>
+<p>JSON es un <strong>formato de texto que es completamente independiente del lenguaje</strong> pero utiliza convenciones que son ampliamente conocidos por los programadores de la familia de lenguajes C, incluyendo C, C++, C#, Java, JavaScript, Perl, Python, y muchos otros.</p>
+<p>Está constituído por:</p>
+<ul>
+<li>Una colección de pares de nombre/valor. En varios lenguajes esto es conocido como un objeto.</li>
+<li>Una lista ordenada de valores. En la mayoría de los lenguajes, esto se implementa como arreglos, vectores, etc.</li>
+</ul>
+<h3 id="caracteristicas">Caracteristicas</h3>
+<p>Sus principales características son:</p>
+<ul>
+<li>JSON es solo un formato de datos.</li>
+<li>Requiere usar comillas dobles para las cadenas y los nombres de propiedades. Las comillas simples no son válidas.</li>
+<li>Puede tomar la forma de cualquier tipo de datos que sea válido para ser incluido en un JSON, no solo arreglos u objetos.</li>
+</ul>
+<h3 id="usos">Usos</h3>
+<p>Su principal uso radica en el procesamiento de datos y al no depender de ningun lenguaje de programaci
+Su sencillez le ha permitido posicionarse como alternativa a XML.</p>
+<h2 id="xml">XML</h2>
+<p>Extensible Markup Language (Lenguaje de Marcado Extensible) es una especificación de W3C como lenguaje de marcado de propósito general. Esto significa que, a diferencia de otros lenguajes de marcado, XML <strong>no está predefinido</strong>, por lo que debes <strong>definir tus propias etiquetas</strong>. El propósito principal del lenguaje es <strong>compartir datos</strong> a través de diferentes sistemas, como Internet.</p>
+<ul>
+<li>XML es un subconjunto de SGML(Estándar Generalised Mark-up Language),simplificado y adaptado a Internet</li>
+<li>XML es un meta-lenguaje que nos permite definir lenguajes de marcado adecuados a usos determinados.</li>
+<li>No es una versión mejorada de HTML</li>
+<li>HTML es una aplicación de SGML por lo tanto de XML</li>
+</ul>
+<h3 id="caracteristicas_1">Características</h3>
+<h3 id="usos_1">Usos</h3>
+<h2 id="comparativa">Comparativa</h2>
+<table>
+<thead>
+<tr>
+<th>JSON</th>
+<th>XML</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Facil de entender</td>
+<td>Facil de entender</td>
+</tr>
+<tr>
+<td>Puede resultar confuso</td>
+<td>Formato estricto</td>
+</tr>
+<tr>
+<td>Mas facil de leer que XML</td>
+<td>Analisis sintáctico facil</td>
+</tr>
+<tr>
+<td>No extendible</td>
+<td>Extendible</td>
+</tr>
+<tr>
+<td>Procesado rapido</td>
+<td>Procesado lento</td>
+</tr>
+</tbody>
+</table></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>©GMDXX</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
